@@ -3,3 +3,57 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+
+#featured-property {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+#featured-property p{
+   /* margin: 0 365px; */
+   width: 800px;
+   margin: 20px 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: rgb(225, 212, 195);
+}
+
+#details div {
+  /* display: inline-block; */
+  /* margin: 0 80px; */
+  float: left;
+  text-align: center;
+  width: 25%;
+  background-color: red;
+}
+
+#details {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: red; */
+  margin-bottom: 140px;
+}
+
+
+/* #featured-property p {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+  box-sizing: border-box;
+} */
